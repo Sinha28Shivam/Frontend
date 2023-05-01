@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+}
+.list li:before {
+    /* content: ; */
+    display: inline-block;
+    padding-inline-end: 0.75rem;
+    transition: transform 200ms;
+}
+.list li:hover::before {
+    transform: translateX(0.25rem);
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
