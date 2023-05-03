@@ -1,5 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+
+// library.add(fas, fab);
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -11,11 +17,13 @@ import { SidebarComponent } from './MyComponents/sidebar/sidebar.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatIconModule} from '@angular/material/icon';
+import { DashboardHomeComponent } from './MyComponents/dashboard-home/dashboard-home.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    DashboardHomeComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +32,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     MatSidenavModule,
     MatBadgeModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
