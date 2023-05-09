@@ -1,7 +1,17 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ErrorPageComponent } from './MyComponents/error-page/error-page.component';
+import { WalletDetailsComponent } from './MyComponents/wallet-details/wallet-details.component';
+import { WalletManagementComponent } from './MyComponents/wallet-management/wallet-management.component';
 
-const routes: Routes = [];
+// import { NavbarComponent } from './MyComponents/navbar/navbar.component';
+
+const routes: Routes = [
+  {path: 'error', component: ErrorPageComponent},
+  {path: 'wallet-details', component: WalletDetailsComponent},
+  {path: '**', component: ErrorPageComponent},
+  {path: 'WalletManagement', component: WalletManagementComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
