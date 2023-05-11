@@ -170,13 +170,18 @@ body {
     .card {
         /* float: ; */
         display: inline-block;
-        width: 300px;
+        width: 240px;
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 36px;
         margin: 10px;
         text-align: center;
         background-color: #f2f2f2;
+        top: 170px;
+        bottom: 20px;
+        position: absolute;
+        margin-left: 890px;
+        /* margin-right: 2px; */
         }
         
 .card img {
