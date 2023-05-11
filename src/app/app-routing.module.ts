@@ -4,15 +4,19 @@ import { ErrorPageComponent } from './MyComponents/error-page/error-page.compone
 import { WalletDetailsComponent } from './MyComponents/wallet-details/wallet-details.component';
 import { WalletManagementComponent } from './MyComponents/wallet-management/wallet-management.component';
 import { DashboardHomeComponent } from './MyComponents/dashboard-home/dashboard-home.component';
-
-// import { NavbarComponent } from './MyComponents/navbar/navbar.component';
+import { InvestNowComponent } from './MyComponents/invest-now/invest-now.component';
+import { PortfolioComponent } from './MyComponents/portfolio/portfolio.component';
+import { NavbarComponent } from './MyComponents/navbar/navbar.component';
 
 const routes: Routes = [
   // {path: 'error', component: ErrorPageComponent},
-  {path:'',component:DashboardHomeComponent},
+  {path:'', component:DashboardHomeComponent},
   {path: 'wallet-details', component: WalletDetailsComponent},
   {path: '**', component: ErrorPageComponent},
-  {path: 'WalletManagement', component: WalletManagementComponent},
+  {path: 'wallet-management', component: WalletManagementComponent},
+  {path: 'InvestNow', component: InvestNowComponent},
+  {path: 'portfolio', component: PortfolioComponent}
+
 ];
 
 @NgModule({

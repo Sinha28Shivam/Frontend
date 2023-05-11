@@ -1,10 +1,10 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
-.list {
+/* .list {
     list-style: none;
 }
 .list li:before {
-    /* content: ; */
+    content: ;
     display: inline-block;
     padding-inline-end: 0.75rem;
     transition: transform 200ms;
@@ -20,61 +20,81 @@
     padding-left: 10px;
 }
 .account{
-    background-color: aliceblue;
+    background-color: rgba(253, 254, 255, 0.934);
     padding-left: 10px;
+    margin-right: 24px;
 }
-table, th, td {
-    border: 1px solid black;
-  }
- .para{
-    color: rgba(5, 0, 3, 0.87);
-    text-align: center;
-    font-size: 20px;
-    /* padding-top: 10; */
-    margin: 1px;
-  }
-.example-card{
-    padding-left: 10px;
-}
-/* .col-sm-2{
-    margin-left: 5px;
-    margin-top: 30px;
-    padding-right: 60px;
-    padding-left: 10px;
+.material-icons{
+    background-color: #07000e;
+    transform: scale(1.5);
+    height: 40%;
+    width: 40%;
+    margin-left: 1px;
+    margin-right: 12px;
 } */
-.card-text{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 30rem;
-}
-.Mutualfundname{
-    background-color: rgba(255, 255, 255, 0.957);
-    padding-left: 7px;
-}
 
-.colle{
-    text-align: left;
-    padding-left: 7px;
-}
 
-.collection{
-    padding-top: 14px;
-    margin-right: 50px;
-    margin-left: 10px;
-    font-size: xx-large;
-}
 
-.highreturn{
-    font-size: large;
-    /* text-align: center; */
-    padding-left: 50px;
-    margin-top: 50px;
-}
 
-.col-sm{
-    margin-top: 10px;
-}
-.container-fluid-2{
-    padding: 10px;
+/* another css for designing */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .navbar {
+    background-color: #343a40;
+    }
+
+    .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    }
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+    }
+.account button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+.account button:hover {
+    color: #17a2b8;
+    }
+
+.account .material-icons {
+    color: #fff;
+    font-size: 2rem;
+    vertical-align: middle;
+    }
+
+.container-fluid {
+    margin: 0px;
+    max-width: 1200px;
+    padding: 0px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+    }
+
+ 
+@media screen and (min-width: 768px) {
+.navbar-expand-md .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+     margin-right: 0;
+    }
+   .account {
+    order: 2;
+    }
 }

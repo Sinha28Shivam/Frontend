@@ -4,8 +4,9 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class CurrencyConversionService {
-  private topUrl = 'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=AUD&to_currency=EUR&apikey=OUZFAR0DURZXF9T2' 
+export class MutualFundService {
+
+  private topUrl = 'http://localhost:8090/mutualfunds/details/top?limit=5' 
 
   constructor(private http: HttpClient) { } 
   getData(){ 
