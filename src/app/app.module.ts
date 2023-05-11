@@ -30,6 +30,7 @@ import { InvestNowComponent } from './MyComponents/invest-now/invest-now.compone
 import { PortfolioComponent } from './MyComponents/portfolio/portfolio.component';
 import { CurrencyConversionService } from './Services/currency-conversion.service';
 import { CurrencyConversionComponent } from './MyComponents/currency-conversion/currency-conversion.component';
+import { AccountDetailsComponent } from './MyComponents/account-details/account-details.component';
 
 
 
@@ -44,7 +45,8 @@ import { CurrencyConversionComponent } from './MyComponents/currency-conversion/
     WalletManagementComponent,
     InvestNowComponent,
     PortfolioComponent,
-    CurrencyConversionComponent
+    CurrencyConversionComponent,
+    AccountDetailsComponent
 
   ],
   imports: [

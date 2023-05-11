@@ -10,16 +10,6 @@ import { CurrencyConversionService } from './Services/currency-conversion.servic
 })
 export class AppComponent {
   title = 'Frontend';
-  // curr:any;
-  // constructor(private dataService: CurrencyConversionService)
-  // {
-  //   this.dataService.curr().subscribe((data: any)=>{
-  //     console.warn("data", data);
-  //     this.curr=data
-      
-  //   })
-  // }
-
   
 }
 

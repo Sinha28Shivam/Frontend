@@ -23,6 +23,14 @@ export class DashboardHomeComponent {
         // console.error(error); 
         console.error('Error 404 Not Found'); this.error=error; }) 
       
-      } 
+      }
+
+      PurchasePrice: number = 10;
+      units: number = 10;
+      totalValue: number=0;
+      
+      calculateTotalValue() {
+      this.totalValue = this.PurchasePrice * this.units;
+      }
 
 }

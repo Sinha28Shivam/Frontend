@@ -7,15 +7,17 @@ import { DashboardHomeComponent } from './MyComponents/dashboard-home/dashboard-
 import { InvestNowComponent } from './MyComponents/invest-now/invest-now.component';
 import { PortfolioComponent } from './MyComponents/portfolio/portfolio.component';
 import { NavbarComponent } from './MyComponents/navbar/navbar.component';
+import { AccountDetailsComponent } from './MyComponents/account-details/account-details.component';
 
 const routes: Routes = [
   // {path: 'error', component: ErrorPageComponent},
-  {path:'', component:DashboardHomeComponent},
+  {path:'', component: DashboardHomeComponent},
   {path: 'wallet-details', component: WalletDetailsComponent},
-  {path: '**', component: ErrorPageComponent},
   {path: 'wallet-management', component: WalletManagementComponent},
+  {path: 'portfolio', component: PortfolioComponent},
   {path: 'InvestNow', component: InvestNowComponent},
-  {path: 'portfolio', component: PortfolioComponent}
+  {path: 'account-details', component: AccountDetailsComponent}
+  // {path: '**', component: ErrorPageComponent}
 
 ];
 
