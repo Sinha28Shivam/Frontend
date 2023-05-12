@@ -1,37 +1,5 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
-/* .list {
-    list-style: none;
-}
-.list li:before {
-    content: ;
-    display: inline-block;
-    padding-inline-end: 0.75rem;
-    transition: transform 200ms;
-}
-.list li:hover::before {
-    transform: translateX(0.25rem);
-}
-.container-fluid{
-    margin: 0%;
-    padding: 0%;
-}
-.d-flex{
-    padding-left: 10px;
-}
-.account{
-    background-color: rgba(253, 254, 255, 0.934);
-    padding-left: 10px;
-    margin-right: 24px;
-}
-.material-icons{
-    background-color: #07000e;
-    transform: scale(1.5);
-    height: 40%;
-    width: 40%;
-    margin-left: 1px;
-    margin-right: 12px;
-} */
 
 
 
@@ -43,6 +11,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
     }
 
     .navbar {

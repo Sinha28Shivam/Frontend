@@ -1,13 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-// import { Router, Routes } from '@angular/router';
-import { MutualFundService } from './Services/mutual-fund.service';
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import { fas } from '@fortawesome/free-solid-svg-icons';
-// import { fab } from '@fortawesome/free-brands-svg-icons';
 
-// library.add(fas, fab);
+import { MutualFundService } from './Services/mutual-fund.service';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -28,7 +23,7 @@ import { WalletDetailsComponent } from './MyComponents/wallet-details/wallet-det
 import { WalletManagementComponent } from './MyComponents/wallet-management/wallet-management.component';
 import { InvestNowComponent } from './MyComponents/invest-now/invest-now.component';
 import { PortfolioComponent } from './MyComponents/portfolio/portfolio.component';
-import { CurrencyConversionService } from './Services/currency-conversion.service';
+// import { CurrencyConversionService } from './Services/currency-conversion.service';
 import { CurrencyConversionComponent } from './MyComponents/currency-conversion/currency-conversion.component';
 import { AccountDetailsComponent } from './MyComponents/account-details/account-details.component';
 
@@ -47,6 +42,7 @@ import { AccountDetailsComponent } from './MyComponents/account-details/account-
     PortfolioComponent,
     CurrencyConversionComponent,
     AccountDetailsComponent
+  
 
   ],
   imports: [
@@ -67,3 +63,4 @@ import { AccountDetailsComponent } from './MyComponents/account-details/account-
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+// export class NavbarModule { }
