@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CurrencyConversionService } from './Services/currency-conversion.service';
+// import { CurrencyConversionService } from './Services/currency-conversion.service';
 // import * as request from 'request';
 
 

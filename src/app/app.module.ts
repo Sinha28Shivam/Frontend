@@ -1,7 +1,7 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { Router, Routes } from '@angular/router';
+// import { Router, Routes } from '@angular/router';
 import { MutualFundService } from './Services/mutual-fund.service';
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -62,7 +62,7 @@ import { AccountDetailsComponent } from './MyComponents/account-details/account-
   ],
   providers: [
     MutualFundService,
-    CurrencyConversionService
+    // CurrencyConversionService
   ],
   bootstrap: [AppComponent]
 })
