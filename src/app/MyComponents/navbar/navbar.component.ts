@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   constructor(){ }
-  ngOnInit(): void {
-  }
+<!--   ngOnInit(): void {
+  } -->
+
 
 }
