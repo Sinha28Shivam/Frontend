@@ -1,17 +1,10 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
-
-
-
-
-/* another css for designing */
-
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0px;
     padding: 0px;
-    max-width: 100%;
+
     }
 
     .navbar {
