@@ -6,7 +6,7 @@ import { WalletManagementComponent } from './MyComponents/wallet-management/wall
 import { DashboardHomeComponent } from './MyComponents/dashboard-home/dashboard-home.component';
 import { InvestNowComponent } from './MyComponents/invest-now/invest-now.component';
 import { PortfolioComponent } from './MyComponents/portfolio/portfolio.component';
-// import { NavbarComponent } from './MyComponents/navbar/navbar.component';
+import { NavbarComponent } from './MyComponents/navbar/navbar.component';
 import { AccountDetailsComponent } from './MyComponents/account-details/account-details.component';
 
 const routes: Routes = [
@@ -16,7 +16,8 @@ const routes: Routes = [
   {path: 'wallet-management', component: WalletManagementComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'InvestNow', component: InvestNowComponent},
-  {path: 'account-details', component: AccountDetailsComponent}
+  {path: 'account-details', component: AccountDetailsComponent},
+  {path: 'navbar', component: NavbarComponent}
   // {path: '**', component: ErrorPageComponent}
 
 ];
