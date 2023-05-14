@@ -2,6 +2,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { MutualFundService } from './Services/mutual-fund.service';
+import { HttpClient } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -51,12 +53,15 @@ import { AccountDetailsComponent } from './MyComponents/account-details/account-
     MatBadgeModule,
     MatIconModule,
     MatCardModule,
-    HttpClientModule
+    HttpClientModule,
+    // HttpModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
   providers: [
     MutualFundService,
+    HttpClientModule,
+    HttpClient
     // CurrencyConversionService
   ],
   bootstrap: [AppComponent]
