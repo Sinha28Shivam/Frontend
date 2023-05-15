@@ -4,7 +4,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0px;
     padding: 0px;
-
     }
 
     .navbar {
@@ -39,18 +38,17 @@ body {
 
 .container-fluid {
     margin: 0px;
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 0px;
-    /* margin-left: 0px;
-    margin-right: 0px; */
     }
 
  
 @media screen and (min-width: 768px) {
 .navbar-expand-md .navbar-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
+
     }
 
     .navbar-nav .nav-link {
